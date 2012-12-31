@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
+  </head>
+<body>
+
+  <div class="wrapper">
+    <div id="header">
+      <img width="100%" src="{{ SITEURL }}/theme/images/banner.jpg"/>
+      <ul id="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="{{ SITEURL }}/about-bethany/">Bethany</a></li>
+        <li><a href="{{ SITEURL }}/about-andy/">Andy</a></li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp; </li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp; </li>
+        <li><a href="{{ SITEURL }}/about-us/">About Us</a></li>
+      </ul>
+    </div><!-- end div#header -->
+
+    <div id="body_content">
+      {% block content %}
+      {% endblock %}
+    </div><!-- end div#body_content -->
+
+    <hr id="footer"/>
+  </div> <!-- end div#wrapper -->
+</body>
+

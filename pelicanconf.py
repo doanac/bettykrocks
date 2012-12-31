@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+import os
 
 AUTHOR = u'Andy Doan'
 SITENAME = u'BettyKRocks'
@@ -9,6 +10,7 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
 
+"""
 # Blogroll
 LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
           ('Python.org', 'http://python.org'),
@@ -18,5 +20,7 @@ LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
+"""
 
+THEME = os.path.join(os.path.dirname(os.path.abspath(__file__)), "theme")
 DEFAULT_PAGINATION = False
