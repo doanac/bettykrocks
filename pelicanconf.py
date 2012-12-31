@@ -24,3 +24,5 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 THEME = os.path.join(os.path.dirname(os.path.abspath(__file__)), "theme")
 DEFAULT_PAGINATION = False
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
