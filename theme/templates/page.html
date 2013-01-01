@@ -19,7 +19,7 @@
 	<div id="sidebar">
 	  <ul>
           {% for sitem in item.submenu %}
-            {% if sitem.label == page.title %}
+            {% if sitem.slug == page.slug %}
               <li class="active"><a href="{{ sitem.url }}">{{ sitem.label }}</a></li>
 	    {% else %}
               <li><a href="{{ sitem.url }}">{{ sitem.label }}</a></li>

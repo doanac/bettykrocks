@@ -17,8 +17,8 @@ PAGE_SAVE_AS = '{slug}.html'
 GENERATE_SOURCE = True
 
 andymenu = [
-    {'label': 'About Me', 'url': '/andy.html'},
-    {'label': 'Hire Me', 'url': '/hire-andy.html'},
+    {'label': 'About Me', 'url': '/andy.html', 'slug': 'andy'},
+    {'label': 'Hire Me', 'url': '/hire-andy.html', 'slug': 'hire-andy'},
 ]
 
 MENU_ITEMS = [
