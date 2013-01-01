@@ -30,39 +30,46 @@ img.align-center {
 	margin-right: auto;
 }
 
+/* column layout support */
+div#page {
+	float: right;
+	width: 600px;
+}
+
+div#sidebar {
+	float: left;
+	width: 150px;
+}
+
+div#colclear {
+	clear: both;
+}
+
 /* sidebar menu support */
 div#sidebar {
 }
 
 div#sidebar ul {
-	margin:0;
-	padding:0;
-	list-style-type:none;
-	position:relative;
-	height:30px;
+	padding-left:0;
 	font-weight:bold;
 }
 
 div#sidebar li {
 	display:block;
-	float:left;
-	margin:0;
-	padding:0;
 }
 
 div#sidebar ul li a {
 	display:block;
 	text-decoration:none;
 	font-weight:bold;
-	padding:8px 20px 0 20px;
+	padding:8px 20px 4px 20px;
 	color: #909090;
-	background-color: #f0f0f0;
 	border-left: 1px dotted black;
-	border-bottom: 1px dotted black;
 }
 
 div#sidebar ul li.active a {
 	color: #505050;
+	text-decoration: underline;
 }
 
 /* horizontal menu support */

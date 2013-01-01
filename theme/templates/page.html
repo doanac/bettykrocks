@@ -27,15 +27,23 @@
           {% endfor %}
 	  </ul>
 	</div>
+	<div id="page">
         {% endif %}
       {% endif %}
     {% endfor %}
-
     <h1>{{ page.title }}</h1>
     {% import 'translations.html' as translations with context %}
     {{ translations.translations_for(page) }}
 
     {{ page.content }}
+    {% for item in MENU_ITEMS %}
+      {% if item.label == page.category %}
+        {% if item.submenu %}
+    </div> <!-- page -->
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  <div id="colclear"> </div>
 {% endblock %}
 
 {% block footer %}
