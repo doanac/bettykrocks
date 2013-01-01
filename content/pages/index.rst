@@ -16,12 +16,3 @@ the software industry with Bethany being a designer and Andy a programmer.
     :align: center
     :alt: Happy Dude from 2003 ACL
 
-
-Misc Links
-----------
-
-* Old School `SouthPark`_ images of some friends made by Windy
-* Funny `images and pictures`_ collected
-
-.. _SouthPark: southpark
-.. _images and pictures: about-andy/funny
