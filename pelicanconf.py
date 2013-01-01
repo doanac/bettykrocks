@@ -27,3 +27,10 @@ DEFAULT_PAGINATION = False
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 GENERATE_SOURCE = True
+
+MENU_ITEMS = [
+    { 'label':'Home', 'url': '/' },
+    { 'label':'Bethany', 'url': '/bethany.html' },
+    { 'label':'Andy', 'url': '/andy.html' },
+    { 'label':'About Us', 'url': '/about-us.html' },
+]

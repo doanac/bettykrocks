@@ -1,4 +1,17 @@
 {% extends "base.html" %}
+
+{% block menu %}
+  <ul id="menu">
+  {% for item in MENU_ITEMS %}
+    {% if item.label == page.category %}
+      <li class="active"><a href="{{ item.url }}">{{ item.label }}</a></li>
+    {% else %}
+      <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endblock %}
+
 {% block content %}
     <h1>{{ page.title }}</h1>
     {% import 'translations.html' as translations with context %}
@@ -8,5 +21,5 @@
 {% endblock %}
 
 {% block footer %}
-<a href='{{ page.source_url }}'>source</a>
+<i><a href='{{ page.source_url }}'>page source</a></i>
 {% endblock %}

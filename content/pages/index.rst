@@ -3,6 +3,7 @@ Welcome, bienvenido, printf("Hello World!\\n")
 
 :date: 2012-12-28
 :slug: index
+:category: Home
 
 Welcome to the website dedicated to providing out-of-date information on
 Bethany and Andy.

@@ -91,16 +91,11 @@ ul#menu li a {
 	color: #909090;
 }
 
+ul#menu li.active a {
+	background-color: #f0f0f0;
+	height: 22px; /* 22 = height(30px) - padding(8px) */
+}
+
 ul#menu li a:hover {
 	color: #d0d0d0;
 }
-
-/*TODO
-ul#menu li a.current
-{
-	display:inline;
-	height:22px;
-	float:left;
-	margin:0;
-}*/
-
