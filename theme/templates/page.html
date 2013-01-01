@@ -13,6 +13,24 @@
 {% endblock %}
 
 {% block content %}
+    {% for item in MENU_ITEMS %}
+      {% if item.label == page.category %}
+        {% if item.submenu %}
+	<div id="sidebar">
+	  <ul>
+          {% for sitem in item.submenu %}
+            {% if sitem.label == page.title %}
+              <li class="active"><a href="{{ sitem.url }}">{{ sitem.label }}</a></li>
+	    {% else %}
+              <li><a href="{{ sitem.url }}">{{ sitem.label }}</a></li>
+            {% endif %}
+          {% endfor %}
+	  </ul>
+	</div>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
     <h1>{{ page.title }}</h1>
     {% import 'translations.html' as translations with context %}
     {{ translations.translations_for(page) }}

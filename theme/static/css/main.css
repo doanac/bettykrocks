@@ -31,14 +31,10 @@ img.align-center {
 }
 
 /* sidebar menu support */
-div.sidebar {
+div#sidebar {
 }
 
-div.sidebar p {
-	display: none;
-}
-
-div.sidebar ul {
+div#sidebar ul {
 	margin:0;
 	padding:0;
 	list-style-type:none;
@@ -47,22 +43,26 @@ div.sidebar ul {
 	font-weight:bold;
 }
 
-div.sidebar li {
+div#sidebar li {
 	display:block;
 	float:left;
 	margin:0;
 	padding:0;
 }
 
-div.sidebar ul li a {
+div#sidebar ul li a {
 	display:block;
 	text-decoration:none;
 	font-weight:bold;
 	padding:8px 20px 0 20px;
+	color: #909090;
 	background-color: #f0f0f0;
-	color: #505050;
 	border-left: 1px dotted black;
 	border-bottom: 1px dotted black;
+}
+
+div#sidebar ul li.active a {
+	color: #505050;
 }
 
 /* horizontal menu support */
