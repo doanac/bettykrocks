@@ -17,6 +17,27 @@ h1 {
 	margin-bottom: 5px;
 }
 
+table {
+	border-collapse: collapse;
+}
+
+.indent {
+	margin-left: 40px;
+}
+
+table > thead > tr > th {
+	padding: 8px 8px;
+	border:  1px solid #d0d0d0;
+	border-bottom: 2px solid black;
+}
+
+table > tbody > tr > td {
+	border: 1px solid #d0d0d0;
+	padding-right: 10px;
+}
+table > tbody > tr > td > ul > li {
+	margin-left: -5px;
+}
 
 div#body_content {
 	width: 750px;

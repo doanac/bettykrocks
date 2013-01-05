@@ -16,20 +16,35 @@ websites, I've also established international fame by:
 * Making sensational homemade beef jerky
 * Become the unofficial face of bacon on facebook
 
-I'm also known on the internet at places like `Launchpad`_ and IRC as "doanac".
+I'm known on the internet at places like `Launchpad`_ and IRC as "doanac".
 
-Linux
------
-In 2011, I got lucky enough to land a job doing open source Linux work as an
-engineer for `Canonical`_/`Linaro`_. My days are spent helping improve Linux
-on ARM.
+Work
+----
+Overall I'm pretty passionate about Linux and have been lucky enough to have
+spent the past 7 years working on embedded Linux. In 2011, I joined the
+non-profit consortium `Linaro`_ where we focus on improving Linux on ARM.
+
+Professional Experience (roughly in chronological order):
+
+.. table::
+  :class: indent
+
+  +-------------------+----------------+
+  | Languages         | Tools/Projects |
+  +===================+================+
+  | - Python ~2 years | - Django       |
+  | - C ~6 years      | - Ubuntu       |
+  | - Java ~5 years   | - Android      |
+  | - C++ ~4 years    | - Eclipse      |
+  |                   | - J2EE         |
+  +-------------------+----------------+
 
 Hobby
 -----
 .. image:: /theme/images/wakemeski.png
  :align: right
 
-I also created the first Android Ski Report application that was merged into
+I created the first Android Ski Report application that was merged into
 WakeMeSki in 2010. I still spend a fair amount of free time doing work on this:
 
 * `Source Code`_
@@ -41,5 +56,4 @@ WakeMeSki in 2010. I still spend a fair amount of free time doing work on this:
 .. _Linaro: http://linaro.org
 .. _Android Market:  https://market.android.com/details?id=com.wakemeski&feature=related_apps
 .. _Source Code: https://github.com/dwalkes/WakeMeSki
-.. _stuff: ./funny
 
