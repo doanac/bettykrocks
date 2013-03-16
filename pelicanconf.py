@@ -14,7 +14,8 @@ THEME = os.path.join(os.path.dirname(os.path.abspath(__file__)), "theme")
 DEFAULT_PAGINATION = False
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
-GENERATE_SOURCE = True
+OUTPUT_SOURCES = True
+OUTPUT_SOURCES_EXTENSION = '.rst'
 
 andymenu = [
     {'label': 'About Me', 'url': '/andy.html', 'slug': 'andy'},
