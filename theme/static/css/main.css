@@ -42,6 +42,7 @@ table > tbody > tr > td > ul > li {
 div#body_content {
 	width: 750px;
 	margin-bottom: 40px;
+	padding-top: 20px;
 }
 
 .align-right { float:right; margin: 0 0 15px 15px; }
@@ -99,7 +100,7 @@ ul#menu {
 	padding:0;
 	list-style-type:none;
 	position:relative;
-	height:30px;
+	height:40px;
 }
 
 ul#menu li {
@@ -114,13 +115,27 @@ ul#menu li a {
 	text-decoration:none;
 	font-weight:bold;
 	font-size: 16px;
-	padding:8px 20px 0 20px;
+	padding:8px 20px 0px 50px;
 	color: #909090;
+	height: 40px;
 }
 
-ul#menu li.active a {
+ul#menu li#home a {
+	background: url('/theme/images/home.png') no-repeat scroll 0% 0% transparent;
+}
+ul#menu li#bethany a {
+	background: url('/theme/images/designer.png') no-repeat scroll 0% 0% transparent;
+}
+ul#menu li#andy a {
+	background: url('/theme/images/ubuntu.png') no-repeat scroll 0% 0% transparent;
+}
+ul#menu li#us a {
+	background: url('/theme/images/ring.png') no-repeat scroll 0% 0% transparent;
+}
+
+ul#menu li.active {
 	background-color: #f0f0f0;
-	height: 22px; /* 22 = height(30px) - padding(8px) */
+	height: 32px;
 }
 
 ul#menu li a:hover {

@@ -23,8 +23,8 @@ andymenu = [
 ]
 
 MENU_ITEMS = [
-    { 'label':'Home', 'url': '/' },
-    { 'label':'Bethany', 'url': '/bethany.html' },
-    { 'label':'Andy', 'url': '/andy.html', 'submenu': andymenu },
-    { 'label':'About Us', 'url': '/about-us.html' },
+    { 'label':'Home', 'url': '/', 'id': 'home' },
+    { 'label':'Bethany', 'url': '/bethany.html', 'id': 'bethany' },
+    { 'label':'Andy', 'url': '/andy.html', 'id': 'andy', 'submenu': andymenu },
+    { 'label':'About Us', 'url': '/about-us.html', 'id': 'us' },
 ]

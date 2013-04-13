@@ -19,7 +19,7 @@
       {% block menu %}
       <ul id="menu">
       {% for item in MENU_ITEMS %}
-        <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+        <li id="{{ item.id }}"><a href="{{ item.url }}">{{ item.label }}</a></li>
       {% endfor %}
       </ul>
       {% endblock %}
