@@ -12,6 +12,9 @@ Bethany (BettyK) and I met way back when and are now happily married and
 living in the coolest town we've ever come across, Austin. We both work in
 the software industry with Bethany being a designer and Andy a programmer.
 
+We don't know who this guy is below, but he was at the 2003 ACL and seems
+pretty awesome.
+
 .. image:: /theme/images/acl_2003.jpg
     :align: center
     :alt: Happy Dude from 2003 ACL
