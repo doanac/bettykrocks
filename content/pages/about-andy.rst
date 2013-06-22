@@ -21,8 +21,10 @@ I'm known on the internet at places like `Launchpad`_ and IRC as "doanac".
 Work
 ----
 Overall I'm pretty passionate about Linux and have been lucky enough to have
-spent the past 7 years working on embedded Linux. In 2011, I joined the
-non-profit consortium `Linaro`_ where we focus on improving Linux on ARM.
+spent the past 7 years working on embedded Linux. In 2011, I was hired by
+`Canonical`_ to work for the non-profit consortium `Linaro`_ to focus on
+helping Linux on ARM. In 2013, I took a job in Canonical leading a team
+focused on developing QA tools.
 
 Professional Experience (roughly in chronological order):
 
