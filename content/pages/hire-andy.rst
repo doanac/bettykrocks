@@ -5,14 +5,28 @@ Professional Highlights
 :slug: hire-andy
 :category: Andy
 
-Canonical / Linaro  *2011 - present*
+Canonical *2011 - present*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Work in the Linaro non-profit organization as a software engineering helping
-to advance and improve Linux on the ARM processor.
+
+**QA Tooling Lead**
+
+Serve as technical lead for a team that develops tools to manage automated
+testing in Canoical. The team focuses on a few areas:
+
+ * `Ubuntu Test Automation Harness`_ (UTAH): A test framework for running automated tests on phones, tables, desktops and servers.
+
+ * `QA Dashboard`_: A Django application providing reporting overviews of Canonical testing efforts.
+
+The tech lead job requires roughly equal parts of planning team work items,
+reviewing code, assisting in technical design of new features, and doing
+indiviual development.
+
+.. _Ubuntu Test Automation Harness: http://launchpad.net/utah
+.. _QA Dashboard: http://reports.qa.ubuntu.com
 
 **Linaro LAVA Team Lead**
 
-Currently serving as the team lead for the Linaro Automated Validation
+Served as the team lead for the Linaro Automated Validation
 Achitecture, `LAVA`_. LAVA is a distributed system built in Python with Django
 that manages Linaro's board farm, manages scheduling of test jobs, execution
 of the jobs, and viewing their results.
@@ -32,18 +46,6 @@ scripts, and faciliating major quality improvements.
 .. _scheduling: http://validation.linaro.org/lava-server/scheduler/
 .. _job: http://launchpad.net/lava-dispatcher
 .. _results: http://validation.linaro.org/lava-server/dashboard/streams/
-
-**Linaro Engineering Community Resources**
-
-The community resources team was responsible for making life easier for both
-internal and external engineers. Duties included:
-
-- Documenting procedures and policies in concise, easy-to-find ways
-- Providing help for using various Linaro tools (how-to's, demo's, etc)
-- General Wiki maintenance.
-- Providing training sessions at quarterly events.
-
-Drove effort to support Overo Gumstix COMs in Linaro builds.
 
 **Linaro Android Team**
 
