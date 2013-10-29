@@ -104,7 +104,7 @@ Worked with agent and install teams to normalize and solve configuration
 needs with a common XML schema. Designed a graphical interface for the schema
 to allow "custom" configuration panels for all ITM Omegamon applications. As
 a side project, wrote an Eclipse syntax highlighting editor for a new ITM
-6.1 file format. implementation.
+6.1 file format.
 
 Ported a Windows application written in C++ to Eclipse. Developed a JNI/COM
 layer to interact with the ITM Engine. Defined a logging and tracing standard
@@ -135,14 +135,3 @@ Technologies and Skills
 - Django / Python
 - Simple Network Management Protocol
 - Java / Eclipse Plug-in Development
-
-Open Source Interests
----------------------
-
-- Authored the first Android ski report application. This was merged into
-  WakeMeSki that's hosted on GitHub and distributed through the Android Market.
-- Overo Gumstix hacking
-- Python Git CMS
-
-
-
